@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 09, 2016 at 04:57 PM
+-- Generation Time: Feb 10, 2016 at 12:41 AM
 -- Server version: 5.6.17
 -- PHP Version: 5.5.12
 
@@ -2921,7 +2921,7 @@ INSERT INTO `tbl_usuarios` (`lp_usuario_id`, `lf_usuario_persona`, `lf_usuario_r
 ('519DD', 'A7BAF', 'QQWW1', 'ESCABALLERO', '6dc06aa6f1ed8b42890d534ed8c7725b', 1, '1LXZ1', '2014-05-16 10:45:55', '2014-07-02 16:16:05', '28309', '::1', 1, 'Bcarrasco.LAPAZ.LOCAL', '::1', 'RDelgado.LAPAZ.LOCAL'),
 ('876B6', 'A999E', '90361', 'MMMM', 'd11c83b6ed51f85110eac7e1ad787921', 1, 'SSDFE', '2014-06-23 20:50:21', '2014-06-30 18:58:28', 'D2B7D', '::1', 1, 'Cvivas.LAPAZ.LOCAL', '::1', 'RDelgado.LAPAZ.LOCAL'),
 ('A3F33', '04469', 'EA1D7', 'JARUIZ', '87e9837555b6337639c4b3b2c557f0e4', 1, 'SSDFE', '2014-06-04 09:42:47', '2014-06-27 21:08:07', 'D2B7D', '::1', 1, 'Cvivas.LAPAZ.LOCAL', '172.16.0.50', 'ecaballero1.lapaz.local'),
-('D2B7D', '73BB2', 'QQWW1', 'CAVIVAS', '5fe92e412da482900eae1004a73ba97e', 1, 'SSDFE', '2014-06-23 20:55:12', '2014-06-23 20:55:12', 'SSDFE', '::1', 1, 'RDelgado.LAPAZ.LOCAL', '::1', 'RDelgado.LAPAZ.LOCAL'),
+('D2B7D', '73BB2', 'QQWW1', 'CAVIVAS', '827ccb0eea8a706c4c34a16891f84e7b', 1, 'SSDFE', '2014-06-23 20:55:12', '2014-06-23 20:55:12', 'SSDFE', '::1', 1, 'RDelgado.LAPAZ.LOCAL', '::1', 'RDelgado.LAPAZ.LOCAL'),
 ('SSDFE', 'AS33W', 'QQWW1', 'RADelgado', '202cb962ac59075b964b07152d234b70', 1, '12', '1922-03-03 10:10:10', '2014-06-04 19:11:19', 'SSDFE', '::1', 1, 'RDelgado.LAPAZ.LOCAL', '::1', 'RDelgado.LAPAZ.LOCAL');
 
 -- --------------------------------------------------------
