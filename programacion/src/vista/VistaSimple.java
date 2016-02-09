@@ -13,10 +13,13 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextPane;
+
+import controlador.miControlador;
+
 import java.awt.Color;
 
 public class VistaSimple {
-
+	private JTextPane textPane;
 	private JFrame frmMantengaLaFe;
 	private JPasswordField passwordField;
 
@@ -61,14 +64,21 @@ public class VistaSimple {
 		
 		JButton btnNewButton = new JButton("Iniciar");
 		btnNewButton.addActionListener(new ActionListener() {
+			@SuppressWarnings("deprecation")
 			public void actionPerformed(ActionEvent arg0) {
+				miControlador controlador = new miControlador();
+				try {controlador.login(textPane.getText(), passwordField.getText());
 				
+				}
+				catch(Exception e){
+					
+				}
 			}
 		});
 		btnNewButton.setBounds(335, 73, 89, 23);
 		frmMantengaLaFe.getContentPane().add(btnNewButton);
 		
-		JTextPane textPane = new JTextPane();
+		textPane = new JTextPane();
 		textPane.setBounds(288, 11, 136, 20);
 		frmMantengaLaFe.getContentPane().add(textPane);
 		
