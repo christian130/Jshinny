@@ -10,6 +10,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextPane;
@@ -67,11 +68,13 @@ public class VistaSimple {
 			@SuppressWarnings("deprecation")
 			public void actionPerformed(ActionEvent arg0) {
 				miControlador controlador = new miControlador();
-				try {controlador.login(textPane.getText(), passwordField.getText());
+				try {
+					controlador.login(textPane.getText(), passwordField.getText());
 				
 				}
 				catch(Exception e){
-					
+					JOptionPane.showMessageDialog(frmMantengaLaFe, "¡Usuario o clave erronea!, favor volver a comprobar");
+					e.printStackTrace();
 				}
 			}
 		});

@@ -34,12 +34,21 @@ public class modelo {
       sql = "SELECT * FROM `tbl_usuarios` where `tbl_usuarios`.`alias` like '"+usuario.toString()+"' and `tbl_usuarios`.`clave` like '"+clave.toString()+"' ";
       try {
 		ResultSet rs = stmt.executeQuery(sql);
+		if(rs.next()){
+			return true;
+			}else{
+				System.out.println(sql);
+				//System.out.println("no");
+			}
+	
+		
+		 //if(stmt!=null)
 	} catch (SQLException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 		return false;
 	}
-	return true;
+	return false;
 	  
   }
    public void close(){
