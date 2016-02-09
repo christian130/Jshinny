@@ -1,0 +1,9 @@
+package vista;
+
+public class ClaseIinicializadora {
+
+	public ClaseIinicializadora() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

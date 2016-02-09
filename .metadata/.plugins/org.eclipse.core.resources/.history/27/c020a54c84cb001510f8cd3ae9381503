@@ -1,0 +1,11 @@
+package vista;
+
+import javax.swing.JComponent;
+
+public class JImageComponent extends JComponent {
+
+	public JImageComponent() {
+		this.paintComponents(g);
+	}
+
+}
