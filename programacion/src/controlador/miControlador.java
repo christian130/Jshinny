@@ -34,4 +34,6 @@ public void login(String usuario, String clave) throws Exception{
 public void abrirMenu(){
 	//vistaMenu.initialize();
 }
+
+
 }
