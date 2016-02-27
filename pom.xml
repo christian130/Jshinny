@@ -18,4 +18,13 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+  <dependency>
+  <groupId>mysql-connector-java-5.1.38-bin</groupId>
+         <artifactId>mysql-connector-java-5.1.38-bin</artifactId>
+         <scope>system</scope>
+         <version>1.0</version>
+         <systemPath>${basedir}\src\main\resources\mysql-connector-java-5.1.38-bin.jar</systemPath>
+  </dependency>
+  </dependencies>
 </project>
