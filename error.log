@@ -1,0 +1,182 @@
+
+C:\Users\Christian\Desktop\inDevelopment\Jshinny>mvn -X install:install-file -Dfile=mysql-connector-java-5.1.38-bin.jar -DgroupId=christian130 -DartifactId=Jshinny -Dversion=01 -Dpackaging=jar 
+Apache Maven 3.3.3 (7994120775791599e205a5524ec3e0dfe41d4a06; 2015-04-22T07:27:37-04:30)
+Maven home: C:\apache-maven-3.3.3\bin\..
+Java version: 1.8.0_05, vendor: Oracle Corporation
+Java home: C:\Program Files\Java\jdk1.8.0_05\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 7", version: "6.1", arch: "x86", family: "dos"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from C:\apache-maven-3.3.3\bin\..\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\Christian\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\apache-maven-3.3.3\bin\..\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\Christian\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\Christian\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\Christian\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project christian130:Jshinny:jar:0.0.1-rojito: (none)
+[DEBUG] Looking up lifecyle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Resolving plugin prefix install from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix install to org.apache.maven.plugins:maven-install-plugin from POM christian130:Jshinny:jar:0.0.1-rojito
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: christian130:Jshinny:jar:0.0.1-rojito
+[DEBUG] Tasks:   [install:install-file]
+[DEBUG] Style:   Aggregating
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Jshinny 0.0.1-rojito
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Resolving plugin prefix install from [org.apache.maven.plugins, org.codehaus.mojo]
+[DEBUG] Resolved plugin prefix install to org.apache.maven.plugins:maven-install-plugin from POM christian130:Jshinny:jar:0.0.1-rojito
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       christian130:Jshinny:0.0.1-rojito
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): []
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install-file (default-cli)
+[DEBUG] Style:         Aggregating
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifactId>${artifactId}</artifactId>
+  <classifier>${classifier}</classifier>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <file>${file}</file>
+  <generatePom>${generatePom}</generatePom>
+  <groupId>${groupId}</groupId>
+  <javadoc>${javadoc}</javadoc>
+  <localRepository>${localRepository}</localRepository>
+  <localRepositoryPath>${localRepositoryPath}</localRepositoryPath>
+  <packaging>${packaging}</packaging>
+  <pomFile>${pomFile}</pomFile>
+  <repositoryLayout default-value="default">${repositoryLayout}</repositoryLayout>
+  <sources>${sources}</sources>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+  <version>${version}</version>
+</configuration>
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install-file (default-cli) @ Jshinny ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=0, ConflictMarker.markTime=1, ConflictMarker.nodeCount=38, ConflictIdSorter.graphTime=0, ConflictIdSorter.topsortTime=0, ConflictIdSorter.conflictIdCount=15, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=7, ConflictResolver.conflictItemCount=35, DefaultDependencyCollector.collectTime=70, DefaultDependencyCollector.transformTime=10}
+[DEBUG] org.apache.maven.plugins:maven-install-plugin:jar:2.4:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-digest:jar:1.0:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-install-plugin:2.4
+[DEBUG]   Included: org.apache.maven.plugins:maven-install-plugin:jar:2.4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-digest:jar:1.0
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-install-plugin:2.4:install-file from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-install-plugin:2.4, parent: sun.misc.Launcher$AppClassLoader@647e05]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-install-plugin:2.4:install-file' with basic configurator -->
+[DEBUG]   (f) artifactId = Jshinny
+[DEBUG]   (f) createChecksum = false
+[DEBUG]   (f) file = C:\Users\Christian\Desktop\inDevelopment\Jshinny\mysql-connector-java-5.1.38-bin.jar
+[DEBUG]   (f) groupId = christian130
+[DEBUG]   (f) localRepository =       id: local
+      url: file:///C:/Users/Christian/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (f) packaging = jar
+[DEBUG]   (f) repositoryLayout = default
+[DEBUG]   (f) updateReleaseInfo = false
+[DEBUG]   (f) version = 01
+[DEBUG] -- end configuration --
+[DEBUG] Installing generated POM
+[INFO] Installing C:\Users\Christian\Desktop\inDevelopment\Jshinny\mysql-connector-java-5.1.38-bin.jar to C:\Users\Christian\.m2\repository\christian130\Jshinny\01\Jshinny-01.jar
+[DEBUG] Writing tracking file C:\Users\Christian\.m2\repository\christian130\Jshinny\01\_remote.repositories
+[INFO] Installing C:\Users\CHRIST~1\AppData\Local\Temp\mvninstall3294266653302818539.pom to C:\Users\Christian\.m2\repository\christian130\Jshinny\01\Jshinny-01.pom
+[DEBUG] Writing tracking file C:\Users\Christian\.m2\repository\christian130\Jshinny\01\_remote.repositories
+[DEBUG] Installing christian130:Jshinny/maven-metadata.xml to C:\Users\Christian\.m2\repository\christian130\Jshinny\maven-metadata-local.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 0.734 s
+[INFO] Finished at: 2016-02-27T03:56:40-04:30
+[INFO] Final Memory: 5M/15M
+[INFO] ------------------------------------------------------------------------

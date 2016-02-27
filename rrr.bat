@@ -1,0 +1,1 @@
+mvn -X install:install-file -Dfile=mysql-connector-java-5.1.38-bin.jar -DgroupId=christian130 -DartifactId=Jshinny -Dversion=01 -Dpackaging=jar -Dpomfile=pom.xml
